@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Udemy</title>
+    <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/customsearch.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"/></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body onload="cards()">
+<div class="topbar">
+    <nav class="navbar navbar-expand-lg navbar-light p-lg-2 shadow-sm p-3 bg-white">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse p-1" id="navbarTogglerDemo01">
+        <a class="navbar-brand px-2" href="#">
+          <img src="assets/images/udemy.svg" alt="Udemy's Logo" height="32"/>
+        </a>
+        <ul class="navbar-nav mr-auto ml-1">
+          <li class="nav-item">
+            <a class="nav-link">Categories</a>
+          </li>
+        </ul>
+        <div class="d-flex flex-grow-1 px-3">
+            <div class="my-auto w-100 d-inline-block order-1">
+                <div class="input-group">
+                    <input type="text" id="search-bar" class="form-control bg-light rounded-pill" placeholder="Search for anything" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+              </div>
+        </div>
+
+        <ul class="navbar-nav  mr-auto ml-1">
+          <li class="nav-item">
+            <a class="nav-link">Udemy for Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Teach on Udemy</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <a class="nav-link mt-2 p-0 px-3"><i class="material-icons-outlined">shopping_cart</i></a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-outline-primary p-2 px-4 mybutton1" href="#" role="button">Log In</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-primary text-white p-2 px-4 mybutton2" href="#" role="button">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+<!--nav bar end-->
+<!--count-->
+<b><h3 class="results"><span id="no"></span> Results For "<span id="result"></span>"</h3></b>
+<!--count end-->
+<!--content-->
+<div class="container-fluid searchcontent" id="search-results" style="margin-left:20%;">
+
+
+</div>
+
+
+
+<!--content end-->
+<!--footer-->
+<footer>
+  <hr>
+  <table>
+    <tr>
+      <th></th>
+      <td><a href="#1">Udemy for Business</a></td>
+      <td><a href="#2">Careers</a></td>
+      <td><a href="#3">Terms</a></td>
+    </tr>
+    <tr>
+      <th></th>
+      <td><a href="#4">Teach on Udemy</a></td>
+      <td><a href="#5">Blog</a></td>
+      <td><a href="#6">Privacy policy and cookie policy</a></td>
+
+    </tr>
+    <tr>
+      <th></th>
+      <td><a href="#7">Get the app</a></td>
+      <td><a href="#8">Help and Support</a></td>
+      <td><a href="#9">Sitemap</a></td>
+
+
+    </tr>
+    <tr>
+      <th></th>
+      <td><a href="#10">About us</a></td>
+      <td><a href="#11">Affiliate</a></td>
+      <td><a href="#12">Featured courses</a></td>
+
+
+      </tr>
+      <tr>
+          <th></th>
+          <td><a href="13">Contact us</a></td>
+
+          </tr>
+  </table>
+  <br>
+  <br>
+  <img src="assets/images/udemy.svg" class ="footerpic" style="padding-left: 20px;margin-bottom: 40px;"height="32">
+  <div class="globe">
+      <div class="form-group has-globe">
+        <span class="fa fa-globe form-control-feedback formglobefeedback"></span>
+        <input class="form-control form-globe" placeholder="English">
+      </div>
+      <br>
+      </div>
+      <div class="copyrights">
+      <p>© 2020 Udemy, Inc.</p>
+</footer>
+
+<!--footer-->
+
+</body>
+
+  <script src="js/search.js"></script>
+  <script src="js/event.js"></script>
+
+</html>
